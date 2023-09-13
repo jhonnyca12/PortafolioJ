@@ -1,0 +1,43 @@
+.card-img:hover {
+    transform: scale(1.2);
+  }
+  
+  .col-md-8 {
+    background: rgb(197, 233, 252);
+    
+  }
+
+  .cardEdit {
+    border: 7px solid #5d8c95; /* Cambia el color y el grosor del borde según tus necesidades */
+  border-radius: 10px; 
+  }
+
+  
+  ul {
+    list-style: none;
+    padding-left: 10px;
+    animation: cambiar 6s infinite;
+  }
+  
+  ul, p {
+    margin: 0;
+  }
+  
+  @keyframes cambiar {
+    0% { margin-top: 0; }
+    20% { margin-top: 0; }
+    25% { margin-top: -40px; }
+    50% { margin-top: -40px; }
+    55% { margin-top: -80px; }
+    80% { margin-top: -80px; }
+    85% { margin-top: -40px; }
+    95% { margin-top: -40px; }
+    100% { margin-top: 0; }
+  }
+
+  .card-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+  }
+
+  
