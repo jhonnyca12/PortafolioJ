@@ -10,6 +10,7 @@ import { ContactameComponent } from './components/contactame/contactame.componen
 import { MiPortafolioComponent } from './components/mi-portafolio/mi-portafolio.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { BackgroundComponent } from './components/background/background.component';
+import { GoogleMapsModule } from '@angular/google-maps'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BackgroundComponent } from './components/background/background.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
